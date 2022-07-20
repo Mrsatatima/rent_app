@@ -1,43 +1,124 @@
 html {
-    background-color: rgb(200, 200, 200);
-    --title-font: "Open sans", sans-serif;
-    --other-font: "Roboto", sans-serif;
-  
-    --size-0:0.6rem;
-    --size-1: 0.8rem;
-    --size-2: 1rem;
-    --size-3: 1.5rem;
-    --size-4: 2rem;
-    --size-5: 2.5rem;
-  
-    --color-primary-blue-100: rgb(192, 104, 232);
-    --color-primary-blue-200: rgb(129, 132, 209);
-    --color-primary-blue-300: rgb(58, 0, 229);
-    --color-primary-blue-400: rgb(3, 9, 164);
-  
-    --color-primary-white-500: rgb(255, 255, 255);
-    --color-primary-white-400: rgb(240, 240, 240);
-  
-    --color-primary-black-500: rgb(20, 20, 20);
-    --color-primary-black-400: rgb(50, 50, 50);
-    --color-primary-black-300: rgb(80, 80, 80);
-    --color-primary-black-200: rgb(100, 100, 100);
-    --color-primary-black-100: rgb(150, 150, 150);
+  background-color: var(--color-primary-white-400);
+  --title-font: "Open sans", sans-serif;
+  --other-font: "Roboto", sans-serif;
 
-    --color-secondary-red-400: rgb(226, 7, 7);
-    --color-secondary-red-300: rgb(223, 69, 69);
-    --color-secondary-red-200: rgb(240,131,131);
-    --color-secondary-red-100: rgb(248,193,193);
+  --size-0: 0.6rem;
+  --size-1: 0.8rem;
+  --size-2: 1rem;
+  --size-3: 1.5rem;
+  --size-4: 2rem;
+  --size-5: 2.5rem;
 
-    --color-secondary-greeen-400: rgb(27,182,23);
-    --color-secondary-greeen-300: rgb(84,200,81);
-    --color-secondary-greeen-200: rgb(141,219,139);
-    --color-secondary-greeen-100: rgb(198,237,197);
+  --color-primary-blue-100: rgb(192, 104, 232);
+  --color-primary-blue-200: rgb(129, 132, 209);
+  --color-primary-blue-300: rgb(58, 0, 229);
+  --color-primary-blue-400: rgb(3, 9, 164);
 
-    --color-secondary-gold-400: rgb(241,182,31);
-    --color-secondary-gold-300: rgb(244,200,87);
-    --color-secondary-gold-200: rgb(248,219,143);
-    --color-secondary-gold-100: rgb(251,237,199);
-  
+  --color-primary-white-500: rgb(255, 255, 255);
+  --color-primary-white-400: rgb(240, 240, 240);
 
+  --color-primary-black-500: rgb(20, 20, 20);
+  --color-primary-black-400: rgb(50, 50, 50);
+  --color-primary-black-300: rgb(80, 80, 80);
+  --color-primary-black-200: rgb(100, 100, 100);
+  --color-primary-black-100: rgb(150, 150, 150);
+
+  --color-secondary-red-400: rgb(226, 7, 7);
+  --color-secondary-red-300: rgb(223, 69, 69);
+  --color-secondary-red-200: rgb(240, 131, 131);
+  --color-secondary-red-100: rgb(248, 193, 193);
+
+  --color-secondary-greeen-400: rgb(27, 182, 23);
+  --color-secondary-greeen-300: rgb(84, 200, 81);
+  --color-secondary-greeen-200: rgb(141, 219, 139);
+  --color-secondary-greeen-100: rgb(198, 237, 197);
+
+  --color-secondary-gold-400: rgb(241, 182, 31);
+  --color-secondary-gold-300: rgb(244, 200, 87);
+  --color-secondary-gold-200: rgb(248, 219, 143);
+  --color-secondary-gold-100: rgb(251, 237, 199);
+}
+
+h1,
+ul,
+a,
+img,
+p {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#mobile-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: .5rem ;
+  margin: .5rem auto;
+  width: 95%;
+}
+#logo {
+    display: flex;
+    align-items: flex-end;
+    gap: .2rem;
   }
+#hambuger{
+    display: flex;
+    flex-direction: column;  
+}
+
+#hambuger span{
+    width: 1.5rem;
+    height: .3rem;
+    background-color: var(--color-primary-blue-400);
+    margin: .1rem;
+}
+
+
+#logo-image {
+  width: 30px;
+}
+#logo h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: var(--color-primary-blue-400);
+}
+
+#profile-nav {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  gap: 10px;
+
+  width: 84px;
+  height: 20px;
+}
+
+.nav-icon {
+  width: 20px;
+}
+
+#sign-in {
+  display: flex;
+  align-items: flex-end;
+  width: 54px;
+  height: 20px;
+  justify-content: space-around;
+}
+#sign-in p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.6rem;
+  color: var(--color-primary-blue-400);
+}
