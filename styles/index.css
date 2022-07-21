@@ -1,0 +1,60 @@
+#search{
+    width: 350px;
+    background-image: url(/images/BlackHomeownershipReport.png);
+    background-color: #cccccc;
+    background-size: cover;
+    background-clip: border-box;
+    border-radius: 10px;
+    margin: 1rem auto;
+    border: var(--color-primary-blue-300) solid 1px;
+    padding: .5rem;
+}
+
+#rent-search{
+    background-color: var(--color-primary-white-500);
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px;
+    padding: .5rem;
+    width: 230px;
+}
+#search-header{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    font-size: 1.2rem;
+    color: var(--color-primary-blue-400);
+    font-weight: 400;
+}
+#search-text{
+    font-family: "Monserrat", sans-serif;
+    margin: 0;
+    font-size: 1rem;
+    color: var(--color-primary-blue-300);
+    font-weight: 400;
+    width: 210px;
+}
+
+#rent-search label{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    font-size: .8rem;
+    color: var(--color-primary-blue-200);
+    font-weight: 400;
+    display: block;
+    margin-bottom: .3rem;
+}
+
+#rent-search select,
+#rent-search input{
+    height: 1.5rem;
+    border: var(--color-primary-blue-200) solid 1px;
+    border-radius: 4px;
+    background-color: var(--color-primary-white-500);
+}
+
+#rent-search select:focus,
+#rent-search input:focus
+#rent-search input:active{
+    height: 1.5rem;
+    border: var(--color-primary-blue-400) solid 1px;
+    border-radius: 4px;
+}

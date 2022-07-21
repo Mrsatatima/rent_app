@@ -1,7 +1,7 @@
 html {
+  
   background-color: var(--color-primary-white-400);
-  --title-font: "Open sans", sans-serif;
-  --other-font: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 
   --size-0: 0.6rem;
   --size-1: 0.8rem;
@@ -56,25 +56,35 @@ ul, ol{
 a {
   text-decoration: none;
 }
-
+body{
+  width: 95%;
+  margin: 0 auto;
+}
 #mobile-header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-  padding: .5rem ;
   margin: .5rem auto;
+  padding: .5rem;
   width: 95%;
+  background-color: var(--color-primary-white-500);
 }
 
 #side-nav{
+  display: none;
+  transition: all .4s ease-in-out;
+}
+#side-nav.active{
+  display: block;
   position: absolute;
-  top:.5rem;
-  
+  top:3rem;
+
   background-color: var(--color-primary-white-500);
   width: 15rem;
   height: 100%;
 }
+
 #side-nav nav{
 margin-left: .5rem;
 }
@@ -113,9 +123,6 @@ margin-left: .5rem;
 
 }
 
-nav ulli:nth-of-type(2){
-  margin-top: 3rem;
-}
 .nav-links{
   margin-left: 1rem;
   margin-top: .2rem;
@@ -140,18 +147,39 @@ nav ulli:nth-of-type(2){
     align-items: flex-end;
     gap: .2rem;
   }
-#hambuger{
+.hambuger{
     display: flex;
     flex-direction: column;  
 }
 
-#hambuger span{
+.hambuger span{
     width: 1.5rem;
     height: .3rem;
     background-color: var(--color-primary-blue-400);
     margin: .1rem;
+    transition: all .4s ease-in-out;
 }
 
+.hambuger.active{
+  transition-delay: .8s;
+  transform: rotate(45deg);
+}
+.hambuger.active >span:nth-child(2){
+  width: 0;
+}
+
+.hambuger.active > span:nth-child(1),
+.hambuger.active > span:nth-child(3){
+  transition-delay: .4s;
+}
+
+.hambuger.active > span:nth-child(1){
+  transform: translateY(9px);
+}
+
+.hambuger.active > span:nth-child(3){
+  transform: translateY(-9px) rotate(90deg);
+}
 
 #logo-image {
   width: 30px;
