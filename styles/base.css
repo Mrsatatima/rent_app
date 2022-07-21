@@ -67,7 +67,6 @@ body{
   align-items: flex-end;
   margin: .5rem auto;
   padding: .5rem;
-  width: 95%;
   background-color: var(--color-primary-white-500);
 }
 
@@ -85,9 +84,9 @@ body{
   height: 100%;
 }
 
-#side-nav nav{
+/* #side-nav nav{
 margin-left: .5rem;
-}
+} */
 
 .nav-heading{
   display: flex;
