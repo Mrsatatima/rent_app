@@ -4,6 +4,7 @@
     background-color: #cccccc;
     background-size: cover;
     background-clip: border-box;
+    background-position: center;
     border-radius: 10px;
     margin: 1rem auto;
     border: var(--color-primary-blue-300) solid 1px;
@@ -40,21 +41,69 @@
     color: var(--color-primary-blue-200);
     font-weight: 400;
     display: block;
-    margin-bottom: .3rem;
+    margin-bottom: .5rem;
 }
 
 #rent-search select,
 #rent-search input{
-    height: 1.5rem;
+    height: 2rem;
     border: var(--color-primary-blue-200) solid 1px;
     border-radius: 4px;
     background-color: var(--color-primary-white-500);
+    display: block;
+    margin-bottom: 1rem;
+
+
 }
 
 #rent-search select:focus,
-#rent-search input:focus
-#rent-search input:active{
-    height: 1.5rem;
+#rent-search input:focus{
+    height: 2rem;
     border: var(--color-primary-blue-400) solid 1px;
     border-radius: 4px;
+    outline: none;
+    background-color: var(--color-secondary-gold-100);
+
+}
+
+#state,
+#property{
+    width:95%;
+}
+#sitingroom,
+#bedroom{
+    width: 6rem;
+    padding: 1px 2px;
+}
+#category{
+    width: 7rem;
+    padding: 1px 2px;
+}
+.group-input{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.index-button{
+    margin: 0;
+    margin-bottom: 1rem;
+    width:5rem;
+    height: 2rem;
+    padding: .2rem;
+    border-radius: 10px;
+    border: solid 1px var(--color-primary-blue-400);
+    color: var(--color-primary-blue-400);
+    font-weight:bold ;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+
+.index-button:hover{
+    color: var(--color-primary-white-500);
+    border: solid 1pxvar(--color-primary-white-500);
+    background-color: var(--color-primary-blue-400);
+
 }

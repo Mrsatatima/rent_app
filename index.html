@@ -225,21 +225,27 @@
           <form action="" id="search-form">
             <label for="state">State</label>
             <input type="text" name="state" id="state">
-            <label for="bedroom">Bedroom</Babel>
-            <select name="bedroom" id="bedroom">
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-            </select>
-            <label for="sitingroom">Sitingroom</Babel>
-            <select name="sitingroom" id="sitingroom">
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-            </select>
-            <label for="property">Property type</Babel>
+            <div class="group-input">
+              <div>
+                <label for="bedroom">Bedroom</Babel>
+                  <select name="bedroom" id="bedroom">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+              </div>
+              <div>
+                <label for="sitingroom">Sitingroom</Babel>
+                  <select name="sitingroom" id="sitingroom">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+              </div>
+            </div>
+            <label for="property">Property type</label>
             <select name="property" id="property">
               <option value="All">All</option>
               <option value="Duplex">Duplex</option>
@@ -247,14 +253,19 @@
               <option value="Appartment">Appartment</option>
               <option value="Bungalow">Bungalow</option>
             </select>
-            <label for="category">Category</Babel>
-              <select name="category" id="category">
-                <option value="All">All</option>
-                <option value="Duplex">Sale</option>
-                <option value="Detached">Rent</option>
-                <option value="Appartment">Lease</option>
-              </select>
-              <button type="submit">Search</button>
+            <div class="group-input">
+              <div>
+                <label for="category">Category</Babel>
+                  <select name="category" id="category">
+                    <option value="All">All</option>
+                    <option value="Duplex">Sale</option>
+                    <option value="Detached">Rent</option>
+                    <option value="Appartment">Lease</option>
+                  </select>
+              </div>
+              <button type="submit" class="index-button">Search</button>
+            </div>
+            
 
           </form>
         </div>
