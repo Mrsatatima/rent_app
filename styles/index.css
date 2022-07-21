@@ -153,10 +153,51 @@
 .button-content{
     width: 180px ;
 }
-.button-content p{
+.content p{
     font-size: .8rem;
     color: var(--color-primary-blue-400);
     margin: 0;
     margin-bottom: 1rem;
 }
 
+#images > span:nth-child(3),
+#images > span:nth-child(2){
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+#images > span:nth-child(1){
+    display: block;
+    width: 100px;
+    height: 80px;
+    border: solid 1px var(--color-secondary-gold-400);
+    background-image: url(/images/square-house.jpg);
+    background-size: cover;
+    margin-bottom: -5.5rem;
+
+    
+
+}
+
+#images > span:nth-child(2){
+    border: solid 1px var(--color-secondary-green-400);
+    margin-left: -2rem;
+    margin-bottom: -.5rem;
+    background-image: url(/images/green-circle-house.jpg);
+    background-size: cover;
+    
+    
+}
+
+
+#images > span:nth-child(3){
+    border: solid 1px var(--color-secondary-red-400);
+    margin-left: -2rem;
+    background-image: url(/images/red-circle-house.jpg);
+    background-size: cover;
+
+
+
+}
