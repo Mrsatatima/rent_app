@@ -42,13 +42,14 @@ html {
 
 h1,
 ul,
+ol,
 a,
 img,
 p {
   margin: 0;
   padding: 0;
 }
-ul {
+ul, ol{
   list-style: none;
 }
 
@@ -64,6 +65,75 @@ a {
   padding: .5rem ;
   margin: .5rem auto;
   width: 95%;
+}
+
+#side-nav{
+  position: absolute;
+  top:.5rem;
+  
+  background-color: var(--color-primary-white-500);
+  width: 15rem;
+  height: 100%;
+}
+#side-nav nav{
+margin-left: .5rem;
+}
+
+.nav-heading{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  padding-right: .5rem;
+  justify-content: space-between;
+
+}
+.nav-header{
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+  color: var(--color-primary-blue-400);
+}
+.other-nav-header{
+  font-family: "Poppins", sans-serif;
+  font-size: .8rem;
+  font-weight: bold;
+  margin: 0;
+  color: var(--color-primary-blue-300);
+}
+.nav-header-icon{
+  width: 20px;
+  height: 20px;
+}
+
+.other-links {
+  margin-top:1rem;
+  margin-bottom:1rem;
+
+}
+
+nav ulli:nth-of-type(2){
+  margin-top: 3rem;
+}
+.nav-links{
+  margin-left: 1rem;
+  margin-top: .2rem;
+}
+.nav-links a{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  width: 12rem;
+}
+.nav-links-image{
+  width: 20px;
+  margin-right: .2rem;
+}
+.nav-links-item{
+  font-family: 'Montserrat', sans-serif;
+  font-size: .8rem;
+  color: var(--color-primary-blue-400);
 }
 #logo {
     display: flex;
@@ -122,3 +192,6 @@ a {
   font-size: 0.6rem;
   color: var(--color-primary-blue-400);
 }
+
+
+
