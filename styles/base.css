@@ -1,6 +1,6 @@
 html {
   
-  background-color: var(--color-primary-white-400);
+  background-color: var(--color-primary-white-300);
   font-family: 'Montserrat', sans-serif;
 
   --size-0: 0.6rem;
@@ -17,6 +17,10 @@ html {
 
   --color-primary-white-500: rgb(255, 255, 255);
   --color-primary-white-400: rgb(240, 240, 240);
+  --color-primary-white-300: rgb(220, 220, 220);
+  --color-primary-white-200: rgb(160, 160, 160);
+
+
 
   --color-primary-black-500: rgb(20, 20, 20);
   --color-primary-black-400: rgb(50, 50, 50);
@@ -148,7 +152,7 @@ margin-left: .5rem;
   }
 .hambuger{
     display: flex;
-    flex-direction: column;  
+    flex-direction: column; 
 }
 
 .hambuger span{
@@ -195,10 +199,8 @@ margin-left: .5rem;
   display: flex;
   flex-direction: row;
   padding: 0px;
-  gap: 10px;
-
-  width: 84px;
-  height: 20px;
+  justify-content: end;
+  justify-items:flex-start;
 }
 
 .nav-icon {
@@ -207,10 +209,8 @@ margin-left: .5rem;
 
 #sign-in {
   display: flex;
-  align-items: flex-end;
-  width: 54px;
-  height: 20px;
   justify-content: space-around;
+  align-items: center;
 }
 #sign-in p {
   font-family: "Poppins";
@@ -218,6 +218,7 @@ margin-left: .5rem;
   font-weight: 400;
   font-size: 0.6rem;
   color: var(--color-primary-blue-400);
+  width: fit-content;
 }
 
 
@@ -275,3 +276,68 @@ margin-bottom: .5rem;
   font-size: .8rem;
   color: var(--color-primary-white-500);
 }
+
+@media only screen and (min-width: 700px) {
+  #logo h1{
+    font-size: 1.5rem;
+    margin: 0;
+  
+  }
+  #logo-image{
+    width: 50px;
+  }
+  
+  .hambuger span{
+    width: 2.5rem;
+    height: .3rem;
+    margin: .2rem;
+    transition: all .4s ease-in-out;
+}
+#side-nav.active{
+  display: block;
+  position: absolute;
+  top:5rem;
+  width: 30rem;
+
+}
+
+
+.nav-icon {
+  width: 30px;
+}
+
+
+#sign-in p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: var(--color-primary-blue-400);
+}
+}
+
+/* @media only screen and (min-width: 1000px) {
+ 
+
+#side-nav.active{
+  display: block;
+  position: absolute;
+  top:5rem;
+}
+
+
+.nav-icon {
+  width: 30px;
+}
+
+
+#sign-in p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: var(--color-primary-blue-400);
+}
+} */
+
+

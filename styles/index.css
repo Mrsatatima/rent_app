@@ -143,6 +143,9 @@
 #services,
 #next-step{
     margin: 0 auto;
+    padding: 0;
+    width: 350px;
+    padding: 0.5rem;
 }
 #about{
     background-image: url(/images/Subtract.png);
@@ -154,6 +157,9 @@
     background-size: cover;
 }
 
+#next-step{
+    background-color: var(--color-primary-white-500);
+}
 .arrow{
     font-size: 1rem;
     font-weight: 900;
@@ -216,8 +222,7 @@
 
 
 #images-2{
-    width: 170px;
-    padding: .2rem;
+    padding: .1rem;
     border: solid 1px var(--color-secondary-red-400);
 }
  #images-2 > span{
@@ -227,7 +232,7 @@
 }
 
 #images-2 img{
-    width: 150px;
+    width: 140px;
     margin-left: 1rem;
 }
 #images-2 > span{
