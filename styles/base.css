@@ -296,7 +296,7 @@ margin-bottom: .5rem;
 #side-nav.active{
   display: block;
   position: absolute;
-  top:5rem;
+  top:4rem;
   width: 30rem;
 
 }
@@ -314,6 +314,14 @@ margin-bottom: .5rem;
   font-size: 0.8rem;
   color: var(--color-primary-blue-400);
 }
+footer #logo{
+  width: fit-content;
+  }
+  #social-links{
+    width: 30rem;
+    margin-left:auto ;
+    margin-right: auto;
+  }
 }
 
 /* @media only screen and (min-width: 1000px) {

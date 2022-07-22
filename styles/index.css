@@ -1,250 +1,373 @@
 #about,
 #search,
-#services{
-    width: 350px;
-    padding: .5rem;
+#services {
+  width: 350px;
+  padding: 0.5rem;
 }
 
-#search{
-    background-image: url(/images/BlackHomeownershipReport.png);
-    background-color: #cccccc;
-    background-size: cover;
-    background-clip: border-box;
-    background-position: center;
-    border-radius: 10px;
-    margin: 1rem auto;
-    border: var(--color-primary-blue-300) solid 1px;
-    
+#search {
+  background-image: url(/images/BlackHomeownershipReport.png);
+  background-color: #cccccc;
+  background-size: cover;
+  background-clip: border-box;
+  background-position: center;
+  border-radius: 10px;
+  margin: 1rem auto;
+  border: var(--color-primary-blue-300) solid 1px;
 }
 
-#rent-search{
-    background-color: var(--color-primary-white-500);
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px;
-    padding: .5rem;
-    width: 230px;
+#rent-search {
+  background-color: var(--color-primary-white-500);
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px;
+  padding: 0.5rem;
+  width: 230px;
 }
-#search-header{
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-    font-size: 1.2rem;
-    color: var(--color-primary-blue-400);
-    font-weight: 400;
+#search-header {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--color-primary-blue-400);
+  font-weight: 400;
 }
-#search-text{
-    font-family: "Monserrat", sans-serif;
-    margin: 0;
-    font-size: 1rem;
-    color: var(--color-primary-blue-300);
-    font-weight: 400;
-    width: 210px;
+#search-text {
+  font-family: "Monserrat", sans-serif;
+  margin: 0;
+  font-size: 1rem;
+  color: var(--color-primary-blue-300);
+  font-weight: 400;
+  width: 210px;
 }
 
-#rent-search label{
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-    font-size: .8rem;
-    color: var(--color-primary-blue-200);
-    font-weight: 400;
-    display: block;
-    margin-bottom: .5rem;
+#rent-search label {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--color-primary-blue-200);
+  font-weight: 400;
+  display: block;
+  margin-bottom: 0.5rem;
 }
 
 #rent-search select,
-#rent-search input{
-    height: 2rem;
-    border: var(--color-primary-blue-200) solid 1px;
-    border-radius: 4px;
-    background-color: var(--color-primary-white-500);
-    display: block;
-    margin-bottom: 1rem;
-
-
+#rent-search input {
+  height: 2rem;
+  border: var(--color-primary-blue-200) solid 1px;
+  border-radius: 4px;
+  background-color: var(--color-primary-white-500);
+  display: block;
+  margin-bottom: 1rem;
 }
 
 #rent-search select:focus,
-#rent-search input:focus{
-    height: 2rem;
-    border: var(--color-primary-blue-400) solid 1px;
-    border-radius: 4px;
-    outline: none;
-    background-color: var(--color-secondary-gold-100);
-
+#rent-search input:focus {
+  height: 2rem;
+  border: var(--color-primary-blue-400) solid 1px;
+  border-radius: 4px;
+  outline: none;
+  background-color: var(--color-secondary-gold-100);
 }
 
 #state,
-#property{
-    width:95%;
+#property {
+  width: 95%;
 }
 #sitingroom,
-#bedroom{
-    width: 6rem;
-    padding: 1px 2px;
+#bedroom {
+  width: 6rem;
+  padding: 1px 2px;
 }
-#category{
-    width: 7rem;
-    padding: 1px 2px;
+#category {
+  width: 7rem;
+  padding: 1px 2px;
 }
-.group-input{
-    display: flex;
-    width: 95%;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-
-.index-button{
-    margin: 0;
-    margin-bottom: 1rem;
-    width:5rem;
-    height: 2rem;
-    padding: .2rem;
-    border-radius: 10px;
-    border: solid 1px var(--color-primary-blue-400);
-    color: var(--color-primary-blue-400);
-    font-weight:bold ;
-    font-family: "Montserrat", sans-serif;
-    font-size: .8rem;
-    display: inline-block;
-    text-align: center;
-    align-items: flex-start;
-    cursor: default;
-    box-sizing: border-box;
-    background-color: var(--color-primary-white-500);
-
-
+.group-input {
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
-.index-button:hover{
-    color: var(--color-primary-white-500);
-    border: solid 1pxvar(--color-primary-white-500);
-    background-color: var(--color-primary-blue-400);
-
+.index-button {
+  margin: 0;
+  margin-bottom: 1rem;
+  width: 5rem;
+  height: 2rem;
+  padding: 0.2rem;
+  border-radius: 10px;
+  border: solid 1px var(--color-primary-blue-400);
+  color: var(--color-primary-blue-400);
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: var(--color-primary-white-500);
 }
 
-.heading-2{
-    font-family: "Poppins", sans-serif;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--color-primary-blue-400);
-    margin: 0;
-    margin-bottom: .5rem;
+.index-button:hover {
+  color: var(--color-primary-white-500);
+  border: solid 1pxvar (--color-primary-white-500);
+  background-color: var(--color-primary-blue-400);
 }
-.heading-3{
-    font-family: "Poppins", sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
-    color: var(--color-primary-blue-400);
-    margin: 0;
-    margin-bottom: .5rem;
 
+.heading-2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--color-primary-blue-400);
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.heading-3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--color-primary-blue-400);
+  margin: 0;
+  margin-bottom: 0.5rem;
 }
 
 #about,
 #services,
-#next-step{
-    margin: 0 auto;
-    padding: 0;
-    width: 350px;
-    padding: 0.5rem;
-}
-#about{
-    background-image: url(/images/Subtract.png);
-    background-size: contain;
+#next-step {
+  margin: 0 auto;
+  padding: 0;
+  width: 350px;
+  padding: 0.5rem;
 }
 
-#services{
-    background-image: url(/images/Union.png);
-    background-size: cover;
+#about {
+  background-image: url(/images/Subtract.png);
+  background-size: contain;
 }
 
-#next-step{
-    background-color: var(--color-primary-white-500);
-}
-.arrow{
-    font-size: 1rem;
-    font-weight: 900;
+#services {
+  background-image: url(/images/Union.png);
+  background-size: cover;
 }
 
-.content{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+#next-step {
+  background-color: var(--color-primary-white-500);
+}
+.arrow {
+  font-size: 1rem;
+  font-weight: 900;
 }
 
-.content img{
-    width: 160px;
-    height: 140px;
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
- #services .button-content{
-    width: 150px ;
+.content img {
+  width: 160px;
+  height: 140px;
 }
-.content p{
-    font-size: .8rem;
-    color: var(--color-primary-blue-400);
-    margin: 0;
-    margin-bottom: 1rem;
-    width: 180px;
+
+#services .button-content {
+  width: 150px;
+}
+.content p {
+  font-size: 0.8rem;
+  color: var(--color-primary-blue-400);
+  margin: 0;
+  margin-bottom: 1rem;
+  width: 180px;
 }
 
 #images > span:nth-child(3),
-#images > span:nth-child(2){
-    display: block;
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
+#images > span:nth-child(2) {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
 }
 
-#images > span:nth-child(1){
-    display: block;
-    width: 140px;
-    height: 100px;
-    border: solid 1px var(--color-secondary-gold-400);
-    background-image: url(/images/square-house.jpg);
-    background-size: cover;
-    margin-bottom: -5.5rem;
+#images > span:nth-child(1) {
+  display: block;
+  width: 140px;
+  height: 100px;
+  border: solid 1px var(--color-secondary-gold-400);
+  background-image: url(/images/square-house.jpg);
+  background-size: cover;
+  margin-bottom: -5.5rem;
 }
 
-#images > span:nth-child(2){
+#images > span:nth-child(2) {
+  border: solid 1px var(--color-secondary-green-400);
+  margin-left: -2rem;
+  margin-bottom: -0.5rem;
+  background-image: url(/images/green-circle-house.jpg);
+  background-size: cover;
+}
+
+#images > span:nth-child(3) {
+  border: solid 1px var(--color-secondary-red-400);
+  background-image: url(/images/red-circle-house.jpg);
+  background-size: cover;
+}
+
+#images-2 {
+  padding: 0.1rem;
+  border: solid 1px var(--color-secondary-red-400);
+}
+
+
+#images-2 img {
+  width: 140px;
+  margin-left: 1rem;
+}
+#images-2 > span {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: solid 1px var(--color-secondary-gold-400);
+  margin-bottom: -5rem;
+  margin-left: -0.2rem;
+}
+
+#next-step .button-content {
+  width: 180px;
+}
+
+@media only screen and (min-width: 700px) {
+  #about,
+  #search,
+  #services, 
+  #next-step{
+    width: 90%;
+    padding: 0.5rem;
+  }
+  .content img {
+    width: 300px;
+    height: 250px;
+  }
+  .content p {
+    font-size:1.2rem;
+    color: var(--color-primary-blue-400);
+    margin: 0;
+    margin-bottom: 1rem;
+    width: 300px;
+  }
+  #images > span:nth-child(3),
+#images > span:nth-child(2) {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 80px;
+}
+
+#images > span:nth-child(1) {
+  display: block;
+  width: 240px;
+  height: 200px;
+  margin-bottom: -8rem;
+
+}
+#images > span:nth-child(2) {
     border: solid 1px var(--color-secondary-green-400);
-    margin-left: -2rem;
-    margin-bottom: -.5rem;
+    margin-left: -5rem;
+    margin-bottom: -1.5rem;
     background-image: url(/images/green-circle-house.jpg);
-    background-size: cover;  
-}
-
-
-#images > span:nth-child(3){
-    border: solid 1px var(--color-secondary-red-400);
-    background-image: url(/images/red-circle-house.jpg);
     background-size: cover;
-}
+  }
 
-
-#images-2{
-    padding: .1rem;
-    border: solid 1px var(--color-secondary-red-400);
-}
- #images-2 > span{
-    display: block;
-    
-    border: solid 1px var(--color-secondary-green-400);
-}
-
-#images-2 img{
-    width: 140px;
+  #images-2 img {
+    width: 300px;
+    height: 250px;
     margin-left: 1rem;
-}
-#images-2 > span{
+  }
+  #next-step .button-content {
+    width: 240px;
+  }
+  #images-2 > span {
     display: block;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    border: solid 1px var(--color-secondary-gold-400);
-    margin-bottom: -5rem;
-    margin-left: -.2rem;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin-bottom: -8rem;
+    margin-left: -0.8rem;
+    
+  }
+  .heading-3 {
+    font-size: 1.5rem;
+  }
+  #next-step .button-content p{
+    font-size: 1.2rem;
+    width: 250px;
+  }
 }
 
-#next-step .button-content{
-    width: 180px ;
-}
+@media only screen and (min-width: 900px) {
+    #about,
+    #search,
+    #services, 
+    #next-step{
+      width: 90%;
+      padding: 0.5rem;
+    }
+    .content img {
+      width: 800px;
+      height: 550px;
+    }
+    .content p {
+      font-size:3rem;
+      color: var(--color-primary-blue-400);
+      margin: 0;
+      margin-bottom: 1rem;
+      width: 600px;
+    }
+    #images > span:nth-child(3),
+  #images > span:nth-child(2) {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+  }
+  
+  #images > span:nth-child(1) {
+    display: block;
+    width: 540px;
+    height: 500px;
+    margin-bottom: -15rem;
+  
+  }
+  #images > span:nth-child(2) {
+      border: solid 1px var(--color-secondary-green-400);
+      margin-left: -10rem;
+      margin-bottom: -7.5rem;
+      background-image: url(/images/green-circle-house.jpg);
+      background-size: cover;
+    }
+  
+    #images-2 img {
+      width: 800px;
+      height: 550px;
+      margin-left: 1rem;
+    }
+    #next-step .button-content {
+      width: 650px;
+    }
+    #images-2 > span {
+      display: block;
+      width: 150px;
+      height: 150px;
+      border-radius: 75px;
+      margin-bottom: -8rem;
+      margin-left: -0.8rem;
+      
+    }
+    .heading-3 {
+      font-size: 3.5rem;
+    }
+    #next-step .button-content p{
+      font-size: 3rem;
+      width: 600px;
+    }
+  }
