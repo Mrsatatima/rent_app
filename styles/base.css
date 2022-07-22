@@ -221,4 +221,13 @@ margin-left: .5rem;
 }
 
 
+footer{
+  background-color: var(--color-primary-white-500);
+  margin: 2rem 0;
+}
+
+footer #logo{
+margin: 0 auto;
+width: 10rem;
+}
 

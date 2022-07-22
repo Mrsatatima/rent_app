@@ -129,12 +129,32 @@
     margin: 0;
     margin-bottom: .5rem;
 }
+.heading-3{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--color-primary-blue-400);
+    margin: 0;
+    margin-bottom: .5rem;
 
+}
+
+#about,
+#services,
+#next-step{
+    margin: 0 auto;
+}
 #about{
     background-image: url(/images/Subtract.png);
     background-size: contain;
 }
-#about span{
+
+#services{
+    background-image: url(/images/Union.png);
+    background-size: cover;
+}
+
+.arrow{
     font-size: 1rem;
     font-weight: 900;
 }
@@ -150,14 +170,15 @@
     height: 140px;
 }
 
-.button-content{
-    width: 180px ;
+ #services .button-content{
+    width: 150px ;
 }
 .content p{
     font-size: .8rem;
     color: var(--color-primary-blue-400);
     margin: 0;
     margin-bottom: 1rem;
+    width: 180px;
 }
 
 #images > span:nth-child(3),
@@ -170,15 +191,12 @@
 
 #images > span:nth-child(1){
     display: block;
-    width: 100px;
-    height: 80px;
+    width: 140px;
+    height: 100px;
     border: solid 1px var(--color-secondary-gold-400);
     background-image: url(/images/square-house.jpg);
     background-size: cover;
     margin-bottom: -5.5rem;
-
-    
-
 }
 
 #images > span:nth-child(2){
@@ -186,18 +204,42 @@
     margin-left: -2rem;
     margin-bottom: -.5rem;
     background-image: url(/images/green-circle-house.jpg);
-    background-size: cover;
-    
-    
+    background-size: cover;  
 }
 
 
 #images > span:nth-child(3){
     border: solid 1px var(--color-secondary-red-400);
-    margin-left: -2rem;
     background-image: url(/images/red-circle-house.jpg);
     background-size: cover;
+}
 
 
+#images-2{
+    width: 170px;
+    padding: .2rem;
+    border: solid 1px var(--color-secondary-red-400);
+}
+ #images-2 > span{
+    display: block;
+    
+    border: solid 1px var(--color-secondary-green-400);
+}
 
+#images-2 img{
+    width: 150px;
+    margin-left: 1rem;
+}
+#images-2 > span{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: solid 1px var(--color-secondary-gold-400);
+    margin-bottom: -5rem;
+    margin-left: -.2rem;
+}
+
+#next-step .button-content{
+    width: 180px ;
 }
